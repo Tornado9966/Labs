@@ -174,34 +174,3 @@ void DoublyLinkedList<int>::Print()
 	}
 	cout << "Amount of elements: " << count << endl << endl;
 }
-
-int main() {
-
-	DoublyLinkedList<int> list;
-	int arr[] = { 10, 20, 5, 15, 40, 2, 14, 60 };
-	for (int i = 0; i < 8; i++) {
-		list.Push(arr[i]);
-	}
-	list.Print();
-	list.Sort();
-	list.Print();
-	list.Insert(25, -3);
-	list.Print();
-	list.Sort();
-	list.Print();
-	list.Pop();
-	list.Pop();
-	list.Pop();
-	list.Print();
-	list.Unshift(17);
-	list.Print();
-	list.Shift();
-	list.Print();
-	list.Delete(8);
-	list.Print();
-	list.~DoublyLinkedList();
-	list.Print();
-
-	system("pause");
-	return 0;
-}
