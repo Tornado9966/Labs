@@ -1,2 +1,3 @@
-# lab1
-Lab 1 (Discrete Structures)
+# Labs
+Labs (Discrete Structures)
+Teacher: Halkin
